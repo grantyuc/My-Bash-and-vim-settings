@@ -1,0 +1,13 @@
+[user]
+	name = Guan-Yu Chen
+	email = r06246010@ntu.edu.tw
+[color]
+	ui = true
+[merge]
+	tool = vimdiff
+[credential]
+	helper = store
+[diff]
+	tool = vimdiff
+[core]
+	autocrlf = input
