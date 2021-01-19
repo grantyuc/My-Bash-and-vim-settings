@@ -34,9 +34,13 @@ Bundle 'SirVer/ultisnips'
 " UltiSnips
     let g:UltiSnipsExpandTrigger="<Tab>"
     let g:UltiSnipsListSnippets="<C-l>"
-    let g:UltiSnipsJumpForwardTrigger="<C-j>"
-    let g:UltiSnipsJumpBackwardTrigger="<C-k>"
+    let g:UltiSnipsJumpForwardTrigger="<Tab>"
+    let g:UltiSnipsJumpBackwardTrigger="<S-Tab>"
     let g:UltiSnipsSnippetDirectories=['bundle/vim-snippets/UltiSnips']
+
+Bundle 'ycm-core/YouCompleteMe'
+    let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
+    let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
 
 Bundle 'scrooloose/syntastic'
     let mapleader=","
