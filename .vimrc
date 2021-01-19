@@ -127,8 +127,8 @@ map		 <leader>a	:shell<CR>
 "map      <CR>   i<CR><ESC>
 
 " 全選+複製
-map		<C-A>		ggVGY
-map!	<C-A><ESC>	ggVGY
+" map		<C-A>		ggVGY
+" map!	<C-A><ESC>	ggVGY
 map		<C-I>		mmG=gg`mzz
 inoremap ZZ     <Esc>ZZ
 
