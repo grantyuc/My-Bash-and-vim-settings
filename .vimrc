@@ -42,7 +42,7 @@ Bundle 'ycm-core/YouCompleteMe'
     let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
     let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
 
-Bundle 'scrooloose/syntastic'
+"Bundle 'scrooloose/syntastic'
     let mapleader=","
     map	<leader>n	:lnext<CR>
     map	<leader>p	:lprevious<CR>
