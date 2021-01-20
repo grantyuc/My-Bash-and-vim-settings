@@ -41,8 +41,13 @@ Bundle 'SirVer/ultisnips'
 Bundle 'ycm-core/YouCompleteMe'
     let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
     let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
+    let g:ycm_always_populate_location_list = 1
+    let g:ycm_open_loclist_on_ycm_diags = 1
+    let g:ycm_register_as_syntastic_checker = 1
+    let g:ycm_show_diagnostics_ui = 1
+    map fi  :YcmCompleter FixIt<CR>
 
-"Bundle 'scrooloose/syntastic'
+Bundle 'scrooloose/syntastic'
     let mapleader=","
     map	<leader>n	:lnext<CR>
     map	<leader>p	:lprevious<CR>
@@ -63,7 +68,7 @@ Bundle 'ycm-core/YouCompleteMe'
     let g:syntastic_cpp_check_header = 1
     let g:syntastic_python_checkers = ['pyflakes']
     let g:syntastic_javascript_checkers = ['eslint', 'jsl', 'jshint']
-    "let g:syntastic_ignore_file=[".*\.py$"]
+    "let g:syntastic_ignore_file=['.*\.py$']
     "set error or warning signs
     let g:syntastic_error_symbol = '>>'
     let g:syntastic_warning_symbol = '!'
@@ -109,7 +114,7 @@ set ignorecase
 set showcmd
 set wildmenu
 set novisualbell
-set fileencoding=utf-8
+set encoding=utf-8
 set fileencodings=utf-8
 set tags=./tags,../tags
 
