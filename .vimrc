@@ -1,5 +1,3 @@
-"Instal Vundle
-"git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 
 
 "Bundle
@@ -59,7 +57,7 @@ Bundle 'scrooloose/syntastic'
     let g:syntastic_cpp_check_header = 1
     let g:syntastic_python_checkers = ['pyflakes']
     let g:syntastic_javascript_checkers = ['eslint', 'jsl', 'jshint']
-    "let g:syntastic_ignore_file=[".*\.py$"]
+    "let g:syntastic_ignore_file=['.*\.py$']
     "set error or warning signs
     let g:syntastic_error_symbol = '>>'
     let g:syntastic_warning_symbol = '!'
@@ -105,7 +103,7 @@ set ignorecase
 set showcmd
 set wildmenu
 set novisualbell
-set fileencoding=utf-8
+set encoding=utf-8
 set fileencodings=utf-8
 set tags=./tags,../tags
 
