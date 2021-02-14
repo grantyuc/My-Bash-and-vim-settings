@@ -29,15 +29,6 @@ Bundle 'ctrlpvim/ctrlp.vim'
 Bundle 'jiangmiao/auto-pairs'
 Bundle 'ervandew/supertab'
     let g:SuperTabDefaultCompletionType = "<C-n>"
-Bundle 'honza/vim-snippets'
-Bundle 'SirVer/ultisnips'
-" UltiSnips
-    let g:UltiSnipsExpandTrigger="<Tab>"
-    let g:UltiSnipsListSnippets="<C-l>"
-    let g:UltiSnipsJumpForwardTrigger="<Tab>"
-    let g:UltiSnipsJumpBackwardTrigger="<S-Tab>"
-    let g:UltiSnipsSnippetDirectories=['bundle/vim-snippets/UltiSnips']
-
 Bundle 'ycm-core/YouCompleteMe'
     let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
     let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
@@ -46,6 +37,15 @@ Bundle 'ycm-core/YouCompleteMe'
     let g:ycm_register_as_syntastic_checker = 1
     let g:ycm_show_diagnostics_ui = 1
     map fi  :YcmCompleter FixIt<CR>
+
+Bundle 'honza/vim-snippets'
+Bundle 'SirVer/ultisnips'
+" UltiSnips
+    let g:UltiSnipsExpandTrigger="<Tab>"
+    let g:UltiSnipsListSnippets="<C-l>"
+    let g:UltiSnipsJumpForwardTrigger="<Tab>"
+    let g:UltiSnipsJumpBackwardTrigger="<S-Tab>"
+    let g:UltiSnipsSnippetDirectories=['bundle/vim-snippets/UltiSnips']
 
 Bundle 'scrooloose/syntastic'
     let mapleader=","
