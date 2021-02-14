@@ -32,8 +32,8 @@ Bundle 'SirVer/ultisnips'
 " UltiSnips
     let g:UltiSnipsExpandTrigger="<Tab>"
     let g:UltiSnipsListSnippets="<C-l>"
-    let g:UltiSnipsJumpForwardTrigger="<C-j>"
-    let g:UltiSnipsJumpBackwardTrigger="<C-k>"
+    let g:UltiSnipsJumpForwardTrigger="<Tab>"
+    let g:UltiSnipsJumpBackwardTrigger="<S-Tab>"
     let g:UltiSnipsSnippetDirectories=['bundle/vim-snippets/UltiSnips']
 
 Bundle 'scrooloose/syntastic'
