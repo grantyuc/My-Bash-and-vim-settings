@@ -97,6 +97,7 @@ Bundle 'wolfpython/cscope_map.vim'
 
 
 "my vim setting
+filetype plugin indent on       " re-enable filetype
 set nu
 syntax enable
 syntax on
