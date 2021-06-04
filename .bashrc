@@ -123,6 +123,6 @@ if ! shopt -oq posix; then
         . /etc/bash_completion
     fi
 fi
-export DISPLAY=172.28.112.1:0.0
+export DISPLAY=$(grep nameserver /etc/resolv.conf | awk '{print $2}'):0.0
 export JEKYLL_GITHUB_TOKEN=b0fd8994002793a4a72d48a754633c053fdc4ea8
 export SSL_CERT_FILE=~/cacert.pem
