@@ -205,5 +205,5 @@ func SetTitle()
 endfunc 
 autocmd BufNewFile * normal G
 
-colorscheme molokai-phoenix
+colorscheme monokai-phoenix
 hi Normal ctermbg=none
