@@ -113,7 +113,7 @@ let mapleader=","
 inoremap jj		<ESC>
 inoremap fj		<END>
 map      fj		<END>
-inoremap ff     <Right>
+"inoremap ff     <Right>
 inoremap jf     <Esc>I
 map      jf     I
 inoremap {		{<CR><CR>}<ESC>kI
